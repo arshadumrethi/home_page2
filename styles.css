@@ -1,0 +1,36 @@
+body {
+  background-color: powderblue !important;
+  padding: 0px 0px 10px 0px
+}
+
+h1 {
+  color : white;
+}
+
+p {
+  color: green
+}
+
+img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+.name {
+  text-align: center;
+  margin-top: 50px
+  }
+
+.profpic {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.links {
+  text-align: center;
+}
