@@ -1,21 +1,71 @@
 body {
-  background-color: powderblue !important;
+  background-color: #2F4F4F;
   padding: 0px 0px 10px 0px
 }
 
 h1 {
-  color : white;
+  color : White;
+  font-family: 'Knewave', cursive;
+  font-size: 50px;
 }
 
 p {
-  color: green
+  color: DodgerBlue;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: Orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
 }
 
 img {
   width: 20%;
   height: auto;
   border-radius: 50%;
+}
 
+#underconst {
+  display: block;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  width: 30%;
+  border-radius: 10%;
+}
+
+nav {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  background-color: "2F4F4F";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: DodgerBlue;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: Blue;
 }
 
 .name {
@@ -24,11 +74,10 @@ img {
   }
 
 .profpic {
-
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 15%;
 }
 
 .links {
