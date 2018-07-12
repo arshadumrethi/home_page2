@@ -1,5 +1,5 @@
 body {
-  background-color: #2F4F4F;
+  background-color: #BC8F8F;
   padding: 0px 0px 10px 0px
 }
 
@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-  color: DodgerBlue;
+  color: #32CD32;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
   text-align: center;
@@ -29,6 +29,13 @@ img {
   border-radius: 50%;
 }
 
+.profpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
 #underconst {
   display: block;
   margin-top: 20%;
@@ -37,6 +44,12 @@ img {
   width: 15%;
   width: 30%;
   border-radius: 10%;
+}
+
+#contact {
+  color:inherit;
+  text-align: center;
+  font-size:24px;
 }
 
 nav {
@@ -58,7 +71,7 @@ li {
 }
 
 li a {
-    color: DodgerBlue;
+    color: #32CD32;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -73,12 +86,6 @@ li a:hover {
   margin-top: 50px
   }
 
-.profpic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
-}
 
 .links {
   text-align: center;
